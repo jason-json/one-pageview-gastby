@@ -1,0 +1,42 @@
+.about{
+    padding: 1%;
+    z-index: -999999999;
+    animation: topBotton 0.5s;
+    -moz-animation: topBotton 0.5s; /* Firefox */
+    -webkit-animation: topBotton 0.5s; /* Safari and Chrome */
+    -o-animation: topBotton 0.5s; 
+}
+
+/* TOP TO BOTTON */
+@keyframes topBotton {
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+@-moz-keyframes topBotton { /* Firefox */
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+@-webkit-keyframes topBotton { /* Safari and Chrome */
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@-o-keyframes topBotton { /* Opera */
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
